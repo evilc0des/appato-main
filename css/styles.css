@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.brand-logo {
+    width: 10vw;
+    padding: 20px;
+    padding-left: 3vw;
+}
+
+.brand-logo img {
+    width: 90%;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav-list li:hover {
+    font-weight: 700;
+}
+
+.contact-btn {
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.top-fold {
+    height: 100vh;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.fold-content {
+    display: flex;
+    height: 100%; 
+    align-items: center;
+}
+
+
+.top-fold .left-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.top-fold .right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+.col {
+    width: 33vw;
+    height: 100%;
+}
+.brand-tag {
+    margin-bottom: 0px;
+    padding-left: 20%;
+    font-size: 3vw;
+    font-family: 'Quicksand', cursive;
+    font-weight: 300;
+    position: relative;
+    right: -14%;
+    z-index: 1000
+    
+}
+
+small.brand-tag{
+    font-size: 1.5vw;
+}
+
+.brand-title {
+    margin-top: 0px;
+    padding-left: 20%;
+    font-size: 8vw;
+    font-family: 'Lobster', cursive;
+    position: relative;
+    right: -22%;
+    z-index: 1000
+    
+}
+.brand-about-head {
+    margin-bottom: 0px;
+    font-size: 3vw;
+    font-family: 'Quicksand', cursive;
+    font-weight: 300;
+    position: relative;
+    left: -22%;
+    z-index: 1000
+    
+}
+
+.brand-about {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    z-index: 1000;
+    position: relative;
+    left: -22%;
+}
+
+.demo-hero {
+    position: relative;
+    top: 5%;
+    left: -6vw;
+    width: 120%;
+}
