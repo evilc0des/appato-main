@@ -8,6 +8,7 @@ var mainDevice = document.getElementById("device"),
 var mainNav = document.getElementById("navbar");
 var heroText = document.querySelector(".hero-text");
 var shadowTitle = document.querySelector(".shadow-title");
+var footer = document.querySelector("footer");
 
 
 
@@ -56,6 +57,7 @@ var revealTimeline = function(){
     mainNav.style.display = 'flex';
     heroText.style.display = 'block';
     shadowTitle.style.display = 'block';
+    footer.style.display = 'block';
     var tl = new TimelineLite();
     tl.to(mainBrand, 0.1, {scale: 0});
     tl.to(mainLogo, 3, {scale:50, rotation:85, x:"-="+moveXVal, y:"-="+moveYVal});
@@ -67,5 +69,6 @@ var revealTimeline = function(){
     }
     tl.from(mainNav, 0.6, {opacity: 0});
     tl.from(heroText, 1, {opacity: 0}, "-=0.6");
+    tl.from(footer, 1, {opacity: 0}, "-=1");
 }
 

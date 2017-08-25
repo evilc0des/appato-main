@@ -141,3 +141,15 @@ nav {
     margin-bottom: 0;
     z-index: -10;
 }
+
+footer {
+    display: none;
+    position: absolute;
+    right: 5vw;
+    bottom: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    font-size: 1em;
+    z-index: 1000;
+}
